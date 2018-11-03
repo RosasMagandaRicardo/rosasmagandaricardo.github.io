@@ -1,0 +1,132 @@
+body {
+	/*background: url(/images/main.gif) repeat;*/
+	/*background: url(/images/main-bg.png) repeat;*/
+	font-family: 'Arvo', serif;
+	color: black;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 20px;
+}
+
+h1 {
+	font-size: 10px;
+
+}
+
+h2 {
+	margin: 0px;
+	padding: 1px 1px 1px 1px;
+	font-family: 'Arvo', serif;
+	font-weight: 400;
+	font-size: 2.4em;
+}
+
+h3 {
+	font-size: 1.6em;
+	margin: 5px;
+}
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 180%;
+}
+
+.post a {
+	font-family: 'Courier New', Courier, monospace;
+	color: purple;
+	font-size: 30px;
+	line-height: 80px;
+}
+
+.post a :visited{
+	color: red;
+}
+
+.imgcuentos{
+    width: 35%;
+    height: 75%;
+    float: left;
+    margin: auto 2% 1% auto;   
+}
+
+.post {
+	padding-bottom: 20px;
+	border-bottom: 3px solid #BDBDBD;
+	text-align: justify;
+}
+
+.post .title {
+	padding-bottom: 20px;
+	padding-top: 20px;
+	letter-spacing: -1px;
+	color: black;
+}
+
+.opinion-personal{
+    float: right;
+    margin-top: 30px;   
+	text-align: justify;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #BDBDBD;
+	text-align: justify;
+	text-transform: uppercase;
+}
+
+#contenedor {
+	margin: 0 auto;
+	padding: 0;
+}
+
+#menu {
+	width: 1000px;
+	height: 70px;
+	margin: 0 auto;
+	padding: 0px;
+	background-color: #FFFFFF;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	float: left;
+	border-right: 1px solid #E1E1E1;
+}
+
+#menu a {
+	display: block;
+	height: 70px;
+	margin: 0px 1px;
+	padding: 0px 20px 0px 20px;
+	line-height: 70px;
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: normal;
+	color: #000000;
+}
+
+#menu .activo a {
+	background-color: black;
+	color: white;
+}
+
+#contenido {
+	overflow: hidden;
+	width: 920px;
+	margin: 0px auto;
+	padding: 20px 20px;
+}
+
+#banner {
+	width: 1000px;
+	margin: 0px auto;
+	border-radius: 100px;
+}
+
+#retrato{
+    float: left;
+    margin: auto 2% 1% auto;
+}
